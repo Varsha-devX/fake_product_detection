@@ -1,0 +1,9 @@
+{
+  "name": "VeriScan - Product Authenticity System",
+  "description": "A full-stack capability web application to detect fake products using QR/Barcodes with AI-enhanced tamper detection.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
