@@ -74,6 +74,6 @@ Product scanner component that handles the core functionality of scanning and ve
 - `vite.config.ts`: Vite build and dev server configuration
 - `package.json`: Project dependencies and scripts
 - `metadata.json`: Project metadata and version info
-
+https://fake-product-detection-1-yovs.onrender.com
 ## License
 All rights reserved.
