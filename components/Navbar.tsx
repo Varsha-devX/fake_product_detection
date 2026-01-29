@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { ShieldCheck, Menu, X, LogOut, User as UserIcon } from 'lucide-react';
-import { mockDb } from '../services/mockDb';
-import { User, UserRole } from '../types';
+import { mockDb } from '../services/mockDb.ts';
+import { User, UserRole } from '../types.ts';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

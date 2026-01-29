@@ -1,15 +1,15 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate, Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Scan from './pages/Scan';
-import Result from './pages/Result';
-import Login from './pages/Login';
-import AdminDashboard from './pages/AdminDashboard';
-import AdminProducts from './pages/AdminProducts';
-import AdminLogs from './pages/AdminLogs';
-import { mockDb } from './services/mockDb';
-import { UserRole } from './types';
+import Navbar from './components/Navbar.tsx';
+import Home from './pages/Home.tsx';
+import Scan from './pages/Scan.tsx';
+import Result from './pages/Result.tsx';
+import Login from './pages/Login.tsx';
+import AdminDashboard from './pages/AdminDashboard.tsx';
+import AdminProducts from './pages/AdminProducts.tsx';
+import AdminLogs from './pages/AdminLogs.tsx';
+import { mockDb } from './services/mockDb.ts';
+import { UserRole } from './types.ts';
 
 // Protected Route Component
 const ProtectedRoute = ({ role }: { role?: UserRole }) => {
